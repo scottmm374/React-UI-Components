@@ -2,10 +2,13 @@
 
 .HeaderContainer {
     border: 1px solid red;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
-.HeaderContainer img {
-    
+#lambdaLogo {
+    width: 10%;
+    height: 10%;
+   
 }

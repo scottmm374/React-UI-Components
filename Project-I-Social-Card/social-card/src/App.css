@@ -4,5 +4,11 @@
 */
 
 .App {
-  
+  width: 585px;
+  height: 506px;
+
+}
+
+p h2 {
+  font-size: 10px;
 }

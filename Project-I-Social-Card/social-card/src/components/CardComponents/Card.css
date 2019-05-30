@@ -2,12 +2,19 @@
 
 
 .CardContainer {
+   width: 100%;
    display: flex;
    flex-direction: column;
+   border: 1px solid blue;
+   
 }
 
-.CardContainer img {
-    width: 65%;
-    justify-content: flex-end;
-    margin-left: 360px;
+.cardCont {
+    flex-direction: flex-end;
+}
+
+#reactImg {
+    width: 70%;
+    
+
 }
