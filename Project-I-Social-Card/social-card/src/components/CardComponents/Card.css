@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+
+
+.CardContainer {
+   display: flex;
+   flex-direction: column;
+}
+
+.CardContainer img {
+    width: 65%;
+    justify-content: flex-end;
+    margin-left: 360px;
+}

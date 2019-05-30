@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+    border: 1px solid red;
+    display: inline-block;
+    
+}
+
+.HeaderContainer img {
+    
+}
