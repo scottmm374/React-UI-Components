@@ -9,7 +9,7 @@ function CardContent() {
         <p>React makes it painless to create interactive UIs. Design simple veiws for 
             each state in your application.
         </p>
-        <a href="#">reactjs.org</a>
+        <a href="http://reactjs.org" target="blank">reactjs.org</a>
     </div>
     );
 }
