@@ -2,9 +2,17 @@
 
 .HeaderContainer {
     border: 1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    
+    /* display: flex; */
+    /* flex-wrap: wrap;
+     */
+}
+
+.HeaderContainer h2 {
+    font-size: 15px;
+}
+
+.HeaderContainer p {
+    font-size: 10px;
 }
 
 #lambdaLogo {

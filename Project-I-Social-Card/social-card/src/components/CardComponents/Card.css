@@ -10,11 +10,27 @@
 }
 
 .cardCont {
-    flex-direction: flex-end;
+    padding-left: 73px;
+    
+}
+
+.CardContainer .cardCont p {
+    font-size: 12px;
+}
+
+.CardContainer .cardCont h2 {
+    font-size: 15px;
+}
+
+.CardContainer .cardCont a {
+    font-size: 12px;
 }
 
 #reactImg {
-    width: 70%;
+    width: 85%;
+    padding-left: 70px;
+    border: 2px solid green;
     
 
 }
+
