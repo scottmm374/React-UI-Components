@@ -11,3 +11,5 @@ const actionButtons = [
     },
     
 ]
+
+export default ActionButton;

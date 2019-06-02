@@ -49,3 +49,4 @@ const numberButtons = [
 ];
 
 
+export default NumberButtons;
