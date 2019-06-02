@@ -18,4 +18,4 @@ const App = () => {
 export default App;
 
 
-<button className={props.buttonStyle}>{props.text}</button>
+{/* <button className={props.buttonStyle}>{props.text}</button> */}

@@ -48,5 +48,23 @@ const numberButtons = [
 
 ];
 
+function numButtons() {
+    return (
+        <div>
+            {numberButtons.map(display => {
+                return <NumberButtons numDisp={display} />
+            })}
+        </div>
+    )
+}
+
+function NumberButtons(props) {
+    return (
+        <div>
+            <button>{props.numDisp.text}</button>
+        </div>
+    )
+};
+
 
 export default NumberButtons;
