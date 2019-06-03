@@ -1,12 +1,9 @@
 import React from 'react';
-import ActionButton from "./ActionButton";
-import NumberButton from "./NumberButton";
 
-const ButtonRowContainer = () => {
+const ButtonRowContainer = props => {
     return (
-        <div>
-            <ActionButton />
-            <NumberButton />
+        <div className ={ButtonRowContainer}>
+            {props.children}
         </div>
     );
 }
