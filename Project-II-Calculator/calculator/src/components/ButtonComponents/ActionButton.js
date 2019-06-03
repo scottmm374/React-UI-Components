@@ -6,7 +6,7 @@ const ActionButton = props => {
         <button className={props.className}>
             {props.text}
         </button>
-    )
+    );
 }
 
 

@@ -2,30 +2,12 @@ import React from 'react';
 import './Display.css';
 
 
-const calculatorDisplay = [
-    {
-        type: "displaybutton", buttonStyle: "display", text: "0"
-    }
-]
-
-
-function calcDisplay () {
-   return ( 
-   <div>
-        {calculatorDisplay.map(display => {
-            return <CalculatorDisplay calDisp={display} />;
-        })};
-    </div>
-   );
-};
-
-function CalculatorDisplay (props) {
+const CalculatorDisplay = props => {
     return (
-        <div>
-            <button>{props.calDisp.text}</button>;
-        </div>
+        <button className={props.className}>
+            {props.text}
+        </button>
     );
-};
-
+}
 
 export default CalculatorDisplay;
