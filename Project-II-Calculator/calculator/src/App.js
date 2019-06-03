@@ -10,29 +10,29 @@ const App = () => {
       <CalculatorDisplay />
       <ButtonRowContainer> 
         <ActionButton text="clear" className="clearButton" />
-        <NumberButton />
+        <NumberButton  text="/" className="symbol"/>
       </ButtonRowContainer>
       <ButtonRowContainer>
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <ActionButton />
+        <NumberButton text="7" className="numButton"/>
+        <NumberButton text="8" className="numButton"/>
+        <NumberButton text="9" className="numButton"/>
+        <NumberButton text="X" className="symbol"/>
       </ButtonRowContainer>
       <ButtonRowContainer>
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <ActionButton />
+        <NumberButton text="4" className="numButton"/>
+        <NumberButton text="5" className="numButton"/>
+        <NumberButton text="6" className="numButton"/>
+        <NumberButton text="-" className="symbol"/>
       </ButtonRowContainer>
       <ButtonRowContainer>
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <ActionButton />
+        <NumberButton text="1" className="numButton"/>
+        <NumberButton text="2" className="numButton"/>
+        <NumberButton text="3" className="numButton"/>
+        <NumberButton text="+" className="symbol"/>
       </ButtonRowContainer>
       <ButtonRowContainer> 
-        <ActionButton />
-        <NumberButton />
+        <ActionButton text="0" className="zero"/>
+        <NumberButton text="=" className="symbol"/>
       </ButtonRowContainer>
  
     </div>
