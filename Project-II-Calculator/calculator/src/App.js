@@ -8,7 +8,7 @@ import ButtonRowContainer from "./components/ButtonComponents/ButtonRowContainer
 const App = () => {
   return (
     <div className="appContainer">
-      <CalculatorDisplay />
+      <CalculatorDisplay text="0" className="display" />
       <ButtonRowContainer> 
         <ActionButton text="clear" className="clearButton" />
         <NumberButton  text="/" className="symbol"/>
@@ -43,17 +43,3 @@ const App = () => {
 export default App;
 
 
-{/* <button className={props.buttonStyle}>{props.text}</button> */}
-/*  Structure for my calculator
-
-    <CalculatorDisplay />
-    <ButtonRowContainer> 
-      <ActionButton />
-      <NumberButton />
-    </ButtonRowContainer>
-    <ButtonRowContainer>
-      <NumberButton />
-    </ButtonRowContainer>
-
-
-*/

@@ -1,0 +1,33 @@
+
+/* Main calculator buttons */
+.numButton {
+    background: white;
+    color: black;
+    width: 25%;
+    height: 100px;
+    font-size: 40px;
+}
+
+.symbol {
+    background: red;
+    color: white;
+    height: 100px;
+    width: 25%;
+    font-size: 40px;
+}
+
+.clearButton {
+    background: white;
+    color: black;
+    width: 75%;
+    height: 100px;
+    font-size: 40px;
+}
+
+.zero {
+    background: white;
+    color: black;
+    width: 75%;
+    height: 100px;
+    font-size: 40px;
+}
