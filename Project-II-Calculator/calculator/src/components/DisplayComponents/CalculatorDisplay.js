@@ -13,18 +13,18 @@ function calcDisplay () {
    return ( 
    <div>
         {calculatorDisplay.map(display => {
-            return <CalculatorDisplay calDisp={display} />
-        })}
+            return <CalculatorDisplay calDisp={display} />;
+        })};
     </div>
-   )
-}
+   );
+};
 
 function CalculatorDisplay (props) {
     return (
         <div>
-            <button>{props.calDisp.text}</button>
+            <button>{props.calDisp.text}</button>;
         </div>
-    )
+    );
 };
 
 

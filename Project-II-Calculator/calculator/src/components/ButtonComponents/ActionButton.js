@@ -1,34 +1,15 @@
 import React from 'react';
 import './Button.css';
 
-
-const actionButton = [
-    {
-        type: "ActionButton", buttonStyle: "action Button", text: "clear"
-    },
-    {
-        type: "ActionButton", buttonStyle: "action Button", text: "0"
-    },
-    
-]
-
-
-function actButton() {
+const ActionButton = props => {
     return (
-        <div>
-            {actionButton.map(display => {
-                return <ActionButton actDisp={display} />
-            })}
-        </div>
+        <button className={props.className}>
+            {props.text}
+        </button>
     )
 }
 
-function ActionButton(props) {
-    return (
-        <div>
-            <button>{props.actDisp.text}</button>
-        </div>
-    )
-};
+
+
 
 export default ActionButton;

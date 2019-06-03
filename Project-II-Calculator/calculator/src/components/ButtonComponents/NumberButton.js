@@ -2,6 +2,7 @@ import React from 'react';
 import './Button.css';
 
 
+
 const numberButtons = [
     {
         type: "numButton", buttonStyle: "num button", text: "1"
@@ -48,23 +49,22 @@ const numberButtons = [
 
 ];
 
-function numButtons() {
+function NumButtons() {
     return (
         <div>
             {numberButtons.map(display => {
-                return <NumberButtons numDisp={display} />
-            })}
+                return <NumberButton numDisp={display} />;
+            })};
         </div>
-    )
-}
-
-function NumberButtons(props) {
-    return (
-        <div>
-            <button>{props.numDisp.text}</button>
-        </div>
-    )
+    );
 };
 
+function NumberButton(props) {
+    return (
+        <div>
+            <button>{props.numDisp.text}</button>;
+        </div>
+    );
+};
 
-export default NumberButtons;
+export default NumberButton;
