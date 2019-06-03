@@ -7,7 +7,7 @@ import ButtonRowContainer from "./components/ButtonComponents/ButtonRowContainer
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="appContainer">
       <CalculatorDisplay />
       <ButtonRowContainer> 
         <ActionButton text="clear" className="clearButton" />
@@ -17,7 +17,7 @@ const App = () => {
         <NumberButton text="7" className="numButton"/>
         <NumberButton text="8" className="numButton"/>
         <NumberButton text="9" className="numButton"/>
-        <NumberButton text="X" className="symbol"/>
+        <NumberButton text="x" className="symbol"/>
       </ButtonRowContainer>
       <ButtonRowContainer>
         <NumberButton text="4" className="numButton"/>
