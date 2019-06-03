@@ -1,6 +1,7 @@
 import React from 'react';
 import './Display.css';
 
+// Calculator Display
 
 const CalculatorDisplay = props => {
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Button.css';
 
+// Clear and Zero button
+
 const ActionButton = props => {
     return (
         <button className={props.className}>
@@ -8,8 +10,5 @@ const ActionButton = props => {
         </button>
     );
 }
-
-
-
 
 export default ActionButton;
